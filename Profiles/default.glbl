@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>website url</description>
+      <initValue>'https://www.lelong.com.my/'</initValue>
+      <name>Site_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>search result in list</description>
+      <initValue>'//*[@id=\'ProductListResult\']/div[5]/div[3]/div'</initValue>
+      <name>searchResultList</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>search product</description>
+      <initValue>'Iphone X'</initValue>
+      <name>searchTextFound</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

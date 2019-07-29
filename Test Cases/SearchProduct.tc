@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To validate search item</description>
+   <name>SearchProduct</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>239c829e-799c-46cd-a56c-5a67369692d9</testCaseGuid>
+   <variable>
+      <defaultValue>'xcasdsadd'</defaultValue>
+      <description></description>
+      <id>0be6dfa5-ef04-43be-a06e-4ef296e62cd2</id>
+      <masked>false</masked>
+      <name>searchInvalid</name>
+   </variable>
+   <variable>
+      <defaultValue>'Iphone X'</defaultValue>
+      <description></description>
+      <id>da091512-49db-40e5-8d50-7ddc0028d91f</id>
+      <masked>false</masked>
+      <name>searchValid</name>
+   </variable>
+   <variable>
+      <defaultValue>'There are no results match your search.'</defaultValue>
+      <description></description>
+      <id>29c91349-5d0e-4747-aa7a-290083c093d3</id>
+      <masked>false</masked>
+      <name>searchNotFound</name>
+   </variable>
+</TestCaseEntity>

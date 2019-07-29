@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MainTest,Chrome 75.0.3770.100,,,2019-07-29 21:46:12,2019-07-29 21:46:46,34.152s,INCOMPLETE
+,,,,,,,
+Test Cases/SearchProduct,Chrome 75.0.3770.100,To validate search item,,2019-07-29 21:46:12,2019-07-29 21:46:26,14.172s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.100,,,2019-07-29 21:46:12,2019-07-29 21:46:14,1.857s,PASSED
+navigateToUrl(Site_URL),Chrome 75.0.3770.100,,,2019-07-29 21:46:14,2019-07-29 21:46:21,6.609s,PASSED
+"verifyMatch(getUrl(), Site_URL, false)",Chrome 75.0.3770.100,,,2019-07-29 21:46:21,2019-07-29 21:46:21,0.031s,PASSED
+searchAction(searchInvalid),Chrome 75.0.3770.100,,,2019-07-29 21:46:21,2019-07-29 21:46:21,0.002s,PASSED
+"lelongweb.keyword.setText(findTestObject(""SearchProduct/Page_Index/input_searchText""), text)",Chrome 75.0.3770.100,,,2019-07-29 21:46:21,2019-07-29 21:46:21,0.282s,PASSED
+"click(findTestObject(""SearchProduct/Page_Index/span_searchButton""))",Chrome 75.0.3770.100,,,2019-07-29 21:46:21,2019-07-29 21:46:22,1.294s,PASSED
+"verifyElementText(findTestObject(""SearchProduct/Page_Result/span_noResult""), searchNotFound)",Chrome 75.0.3770.100,,,2019-07-29 21:46:22,2019-07-29 21:46:22,0.056s,PASSED
+searchAction(searchValid),Chrome 75.0.3770.100,,,2019-07-29 21:46:22,2019-07-29 21:46:22,0.000s,PASSED
+"lelongweb.keyword.setText(findTestObject(""SearchProduct/Page_Index/input_searchText""), text)",Chrome 75.0.3770.100,,,2019-07-29 21:46:22,2019-07-29 21:46:22,0.144s,PASSED
+"click(findTestObject(""SearchProduct/Page_Index/span_searchButton""))",Chrome 75.0.3770.100,,,2019-07-29 21:46:22,2019-07-29 21:46:26,3.291s,PASSED
+countResult = lelongweb.keyword.countElement(searchResultList),Chrome 75.0.3770.100,,,2019-07-29 21:46:26,2019-07-29 21:46:26,0.123s,PASSED
+"verifyGreaterThan(countResult, 6)",Chrome 75.0.3770.100,,,2019-07-29 21:46:26,2019-07-29 21:46:26,0.008s,PASSED
+"getText(findTestObject(""SearchProduct/Page_Result/span_resultInItems"")).contains(searchValid)",Chrome 75.0.3770.100,,,2019-07-29 21:46:26,2019-07-29 21:46:26,0.059s,PASSED
+closeBrowser(),Chrome 75.0.3770.100,,,2019-07-29 21:46:26,2019-07-29 21:46:26,0.171s,PASSED
+,,,,,,,
+Test Cases/Register,Chrome 75.0.3770.100,To validate register page,,2019-07-29 21:46:26,2019-07-29 21:46:34,8.429s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.100,,,2019-07-29 21:46:26,2019-07-29 21:46:27,1.038s,PASSED
+navigateToUrl(Site_URL),Chrome 75.0.3770.100,,,2019-07-29 21:46:27,2019-07-29 21:46:32,4.788s,PASSED
+"verifyMatch(getUrl(), Site_URL, false)",Chrome 75.0.3770.100,,,2019-07-29 21:46:32,2019-07-29 21:46:32,0.013s,PASSED
+"click(findTestObject(""Register/Page_Index/link-Register""))",Chrome 75.0.3770.100,,,2019-07-29 21:46:32,2019-07-29 21:46:34,2.258s,PASSED
+"verifyElementText(findTestObject(""Register/Page_Register/label_signUp""), signUpLabel)",Chrome 75.0.3770.100,,,2019-07-29 21:46:34,2019-07-29 21:46:34,0.039s,PASSED
+closeBrowser(),Chrome 75.0.3770.100,,,2019-07-29 21:46:34,2019-07-29 21:46:34,0.159s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 75.0.3770.100,To validate login activity,,2019-07-29 21:46:34,2019-07-29 21:46:46,11.372s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.100,,,2019-07-29 21:46:35,2019-07-29 21:46:36,1.091s,PASSED
+navigateToUrl(Site_URL),Chrome 75.0.3770.100,,,2019-07-29 21:46:36,2019-07-29 21:46:41,5.297s,PASSED
+"verifyMatch(getUrl(), Site_URL, false)",Chrome 75.0.3770.100,,,2019-07-29 21:46:41,2019-07-29 21:46:41,0.011s,PASSED
+"click(findTestObject(""Login/Page_Index/link-Login""))",Chrome 75.0.3770.100,,,2019-07-29 21:46:41,2019-07-29 21:46:42,0.798s,PASSED
+"loginAction(userInvalid, passwordInvalid)",Chrome 75.0.3770.100,,,2019-07-29 21:46:42,2019-07-29 21:46:42,0.002s,PASSED
+"setText(findTestObject(""Login/Page_SignIn/input_UserName""), username)",Chrome 75.0.3770.100,,,2019-07-29 21:46:42,2019-07-29 21:46:42,0.214s,PASSED
+"setEncryptedText(findTestObject(""Login/Page_SignIn/input_Password""), password)",Chrome 75.0.3770.100,,,2019-07-29 21:46:42,2019-07-29 21:46:42,0.187s,PASSED
+"click(findTestObject(""Login/Page_SignIn/btn_signIn""))",Chrome 75.0.3770.100,,,2019-07-29 21:46:42,2019-07-29 21:46:43,0.803s,PASSED
+"verifyElementText(findTestObject(""Login/Page_SignIn/label_errorMessage""), errorInvalid)",Chrome 75.0.3770.100,,,2019-07-29 21:46:43,2019-07-29 21:46:43,0.084s,PASSED
+"loginAction(userValid, passwordValid)",Chrome 75.0.3770.100,,,2019-07-29 21:46:43,2019-07-29 21:46:43,0.000s,PASSED
+"setText(findTestObject(""Login/Page_SignIn/input_UserName""), username)",Chrome 75.0.3770.100,,,2019-07-29 21:46:43,2019-07-29 21:46:43,0.138s,PASSED
+"setEncryptedText(findTestObject(""Login/Page_SignIn/input_Password""), password)",Chrome 75.0.3770.100,,,2019-07-29 21:46:43,2019-07-29 21:46:43,0.117s,PASSED
+"click(findTestObject(""Login/Page_SignIn/btn_signIn""))",Chrome 75.0.3770.100,,,2019-07-29 21:46:43,2019-07-29 21:46:46,2.331s,PASSED
+"verifyElementText(findTestObject(""Login/Page_Member/link-Username""), userName)",Chrome 75.0.3770.100,,,2019-07-29 21:46:46,2019-07-29 21:46:46,0.028s,PASSED
+closeBrowser(),Chrome 75.0.3770.100,,,2019-07-29 21:46:46,2019-07-29 21:46:46,0.149s,PASSED

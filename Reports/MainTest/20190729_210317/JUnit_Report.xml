@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="MainTest" time="32" tests="3" failures="0" errors="0">
+    <testsuite name="MainTest" tests="3" failures="0" errors="0" time="32" timestamp="2019-07-29 21:03:29" hostname="johanneshenkie - 192.168.31.94" id="Test Suites/MainTest">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/Users/johanneshenkie/kDocker/WebAutomation/Reports/MainTest/20190729_210317"/>
+            <property name="logFiles" value="/Users/johanneshenkie/kDocker/WebAutomation/Reports/MainTest/20190729_210317/execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="johanneshenkie - 192.168.31.94"/>
+            <property name="os" value="Mac OS X 64bit"/>
+            <property name="katalonVersion" value="6.2.2.4"/>
+            <property name="browser" value="Chrome 75.0.3770.100"/>
+            <property name="hostAddress" value="192.168.31.94"/>
+            <property name="sessionId" value="7ceeb73e26f09e9c26ddf6d060489224"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Mac OS X"/>
+        </properties>
+        <testcase name="Test Cases/SearchProduct" classname="Test Cases/SearchProduct" status="PASSED">
+            <system-out>2019-07-29 21:03:29 - [TEST_CASE][PASSED] - Test Cases/SearchProduct: Test Cases/SearchProduct
+
+2019-07-29 21:03:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-29 21:03:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-29 21:03:29 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-07-29 21:03:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-29 21:03:31 - [TEST_STEP][PASSED] - navigateToUrl(Site_URL): Navigate to 'https://www.lelong.com.my/' successfully
+
+2019-07-29 21:03:36 - [MESSAGE][PASSED] - Navigate to 'https://www.lelong.com.my/' successfully
+
+2019-07-29 21:03:36 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), Site_URL, false): Actual text 'https://www.lelong.com.my/' and expected text 'https://www.lelong.com.my/' are matched 
+
+2019-07-29 21:03:36 - [MESSAGE][PASSED] - Current window's url is: 'https://www.lelong.com.my/'
+
+2019-07-29 21:03:36 - [MESSAGE][PASSED] - Actual text 'https://www.lelong.com.my/' and expected text 'https://www.lelong.com.my/' are matched 
+
+2019-07-29 21:03:36 - [TEST_STEP][PASSED] - searchAction(searchInvalid): null
+
+2019-07-29 21:03:36 - [TEST_STEP][PASSED] - lelongweb.keyword.setText(findTestObject("SearchProduct/Page_Index/input_searchText"), text): lelongweb.keyword.setText is PASSED
+
+2019-07-29 21:03:36 - [MESSAGE][PASSED] - Text 'xcasdsadd' is set on object 'Object Repository/SearchProduct/Page_Index/input_searchText'
+
+2019-07-29 21:03:36 - [MESSAGE][PASSED] - lelongweb.keyword.setText is PASSED
+
+2019-07-29 21:03:36 - [TEST_STEP][PASSED] - click(findTestObject("SearchProduct/Page_Index/span_searchButton")): Object: 'Object Repository/SearchProduct/Page_Index/span_searchButton' is clicked on
+
+2019-07-29 21:03:37 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchProduct/Page_Index/span_searchButton' is clicked on
+
+2019-07-29 21:03:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SearchProduct/Page_Result/span_noResult"), searchNotFound): Actual text and expected text of test object 'Object Repository/SearchProduct/Page_Result/span_noResult' are matched.
+
+2019-07-29 21:03:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SearchProduct/Page_Result/span_noResult' are matched.
+
+2019-07-29 21:03:37 - [TEST_STEP][PASSED] - searchAction(searchValid): null
+
+2019-07-29 21:03:37 - [TEST_STEP][PASSED] - lelongweb.keyword.setText(findTestObject("SearchProduct/Page_Index/input_searchText"), text): lelongweb.keyword.setText is PASSED
+
+2019-07-29 21:03:37 - [MESSAGE][PASSED] - Text 'Iphone X' is set on object 'Object Repository/SearchProduct/Page_Index/input_searchText'
+
+2019-07-29 21:03:37 - [MESSAGE][PASSED] - lelongweb.keyword.setText is PASSED
+
+2019-07-29 21:03:37 - [TEST_STEP][PASSED] - click(findTestObject("SearchProduct/Page_Index/span_searchButton")): Object: 'Object Repository/SearchProduct/Page_Index/span_searchButton' is clicked on
+
+2019-07-29 21:03:41 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchProduct/Page_Index/span_searchButton' is clicked on
+
+2019-07-29 21:03:41 - [TEST_STEP][PASSED] - countResult = lelongweb.keyword.countElement(searchResultList): lelongweb.keyword.countElement is PASSED
+
+2019-07-29 21:03:41 - [MESSAGE][PASSED] - lelongweb.keyword.countElement is PASSED
+
+2019-07-29 21:03:41 - [TEST_STEP][PASSED] - verifyGreaterThan(countResult, 6): Actual number '71' is greater than expected number '6'
+
+2019-07-29 21:03:41 - [MESSAGE][PASSED] - Actual number '71' is greater than expected number '6'
+
+2019-07-29 21:03:41 - [TEST_STEP][PASSED] - getText(findTestObject("SearchProduct/Page_Result/span_resultInItems")).contains(searchValid): Text of object 'Object Repository/SearchProduct/Page_Result/span_resultInItems' is: ' 6 Sold
+Apple Iphone X (64GB) ORIGINAL set by APPLE Malaysia!
+BUY WITH CONFIDENCE! 100% GOOD RATING SINCE YEAR 2007
+  directd  
+Ship from : Selangor ,Estimated Arrival 3-5 working days.
+
+RM 4,857.54 -28 %
+RM 3,499.00
+
+RM 10.00
+Sponsored
+Add to wishlist (9)'
+
+2019-07-29 21:03:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/SearchProduct/Page_Result/span_resultInItems' is: ' 6 Sold
+Apple Iphone X (64GB) ORIGINAL set by APPLE Malaysia!
+BUY WITH CONFIDENCE! 100% GOOD RATING SINCE YEAR 2007
+  directd  
+Ship from : Selangor ,Estimated Arrival 3-5 working days.
+
+RM 4,857.54 -28 %
+RM 3,499.00
+
+RM 10.00
+Sponsored
+Add to wishlist (9)'
+
+2019-07-29 21:03:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-29 21:03:41 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Register" classname="Test Cases/Register" status="PASSED">
+            <system-out>2019-07-29 21:03:41 - [TEST_CASE][PASSED] - Test Cases/Register: Test Cases/Register
+
+2019-07-29 21:03:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-29 21:03:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-29 21:03:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-29 21:03:42 - [TEST_STEP][PASSED] - navigateToUrl(Site_URL): Navigate to 'https://www.lelong.com.my/' successfully
+
+2019-07-29 21:03:50 - [MESSAGE][PASSED] - Navigate to 'https://www.lelong.com.my/' successfully
+
+2019-07-29 21:03:50 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), Site_URL, false): Actual text 'https://www.lelong.com.my/' and expected text 'https://www.lelong.com.my/' are matched 
+
+2019-07-29 21:03:50 - [MESSAGE][PASSED] - Current window's url is: 'https://www.lelong.com.my/'
+
+2019-07-29 21:03:50 - [MESSAGE][PASSED] - Actual text 'https://www.lelong.com.my/' and expected text 'https://www.lelong.com.my/' are matched 
+
+2019-07-29 21:03:50 - [TEST_STEP][PASSED] - click(findTestObject("Register/Page_Index/link-Register")): Object: 'Object Repository/Register/Page_Index/link-Register' is clicked on
+
+2019-07-29 21:03:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/Page_Index/link-Register' is clicked on
+
+2019-07-29 21:03:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Register/Page_Register/label_signUp"), signUpLabel): Actual text and expected text of test object 'Object Repository/Register/Page_Register/label_signUp' are matched.
+
+2019-07-29 21:03:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Register/Page_Register/label_signUp' are matched.
+
+2019-07-29 21:03:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-29 21:03:53 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+            <system-out>2019-07-29 21:03:53 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2019-07-29 21:03:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-29 21:03:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-29 21:03:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-29 21:03:54 - [TEST_STEP][PASSED] - navigateToUrl(Site_URL): Navigate to 'https://www.lelong.com.my/' successfully
+
+2019-07-29 21:03:58 - [MESSAGE][PASSED] - Navigate to 'https://www.lelong.com.my/' successfully
+
+2019-07-29 21:03:58 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), Site_URL, false): Actual text 'https://www.lelong.com.my/' and expected text 'https://www.lelong.com.my/' are matched 
+
+2019-07-29 21:03:58 - [MESSAGE][PASSED] - Current window's url is: 'https://www.lelong.com.my/'
+
+2019-07-29 21:03:58 - [MESSAGE][PASSED] - Actual text 'https://www.lelong.com.my/' and expected text 'https://www.lelong.com.my/' are matched 
+
+2019-07-29 21:03:58 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Index/link-Login")): Object: 'Object Repository/Login/Page_Index/link-Login' is clicked on
+
+2019-07-29 21:03:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Index/link-Login' is clicked on
+
+2019-07-29 21:03:59 - [TEST_STEP][PASSED] - loginAction(userInvalid, passwordInvalid): null
+
+2019-07-29 21:03:59 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_SignIn/input_UserName"), username): Text 'jojoh' is set on object 'Object Repository/Login/Page_SignIn/input_UserName'
+
+2019-07-29 21:03:59 - [MESSAGE][PASSED] - Text 'jojoh' is set on object 'Object Repository/Login/Page_SignIn/input_UserName'
+
+2019-07-29 21:03:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Page_SignIn/input_Password"), password): Text ****** has been set on object 'Object Repository/Login/Page_SignIn/input_Password'
+
+2019-07-29 21:03:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_SignIn/input_Password'
+
+2019-07-29 21:03:59 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_SignIn/btn_signIn")): Object: 'Object Repository/Login/Page_SignIn/btn_signIn' is clicked on
+
+2019-07-29 21:04:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_SignIn/btn_signIn' is clicked on
+
+2019-07-29 21:04:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/Page_SignIn/label_errorMessage"), errorInvalid): Actual text and expected text of test object 'Object Repository/Login/Page_SignIn/label_errorMessage' are matched.
+
+2019-07-29 21:04:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_SignIn/label_errorMessage' are matched.
+
+2019-07-29 21:04:00 - [TEST_STEP][PASSED] - loginAction(userValid, passwordValid): null
+
+2019-07-29 21:04:00 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_SignIn/input_UserName"), username): Text 'johanneskie' is set on object 'Object Repository/Login/Page_SignIn/input_UserName'
+
+2019-07-29 21:04:00 - [MESSAGE][PASSED] - Text 'johanneskie' is set on object 'Object Repository/Login/Page_SignIn/input_UserName'
+
+2019-07-29 21:04:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Page_SignIn/input_Password"), password): Text ****** has been set on object 'Object Repository/Login/Page_SignIn/input_Password'
+
+2019-07-29 21:04:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_SignIn/input_Password'
+
+2019-07-29 21:04:00 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_SignIn/btn_signIn")): Object: 'Object Repository/Login/Page_SignIn/btn_signIn' is clicked on
+
+2019-07-29 21:04:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_SignIn/btn_signIn' is clicked on
+
+2019-07-29 21:04:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/Page_Member/link-Username"), userName): Actual text and expected text of test object 'Object Repository/Login/Page_Member/link-Username' are matched.
+
+2019-07-29 21:04:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_Member/link-Username' are matched.
+
+2019-07-29 21:04:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-29 21:04:01 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-07-29 21:03:29 - [TEST_SUITE][INCOMPLETE] - MainTest: null</system-out>
+        <system-err>2019-07-29 21:03:29 - [TEST_SUITE][INCOMPLETE] - MainTest: null</system-err>
+    </testsuite>
+</testsuites>

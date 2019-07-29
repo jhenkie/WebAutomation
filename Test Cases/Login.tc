@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To validate login activity</description>
+   <name>Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9ff4db88-e8f9-43f4-99dc-27c7e5e75484</testCaseGuid>
+   <variable>
+      <defaultValue>'johan'</defaultValue>
+      <description></description>
+      <id>ee3d1eb2-c74d-4db4-ae0b-b8fde90b8c76</id>
+      <masked>false</masked>
+      <name>userInvalid</name>
+   </variable>
+   <variable>
+      <defaultValue>'tahL7jSofmy0sciWI/dP9g=='</defaultValue>
+      <description></description>
+      <id>33f78e28-ae94-4fc8-89c1-17691a25fa3f</id>
+      <masked>false</masked>
+      <name>passwordInvalid</name>
+   </variable>
+   <variable>
+      <defaultValue>'johanneskie'</defaultValue>
+      <description></description>
+      <id>8692cb0c-df38-495a-ba61-f02dad505172</id>
+      <masked>false</masked>
+      <name>userValid</name>
+   </variable>
+   <variable>
+      <defaultValue>'tahL7jSofmwLJGpciA8DFQ=='</defaultValue>
+      <description></description>
+      <id>f16bef72-d781-4f17-80a4-3297eafc680f</id>
+      <masked>false</masked>
+      <name>passwordValid</name>
+   </variable>
+   <variable>
+      <defaultValue>'Invalid username or password.'</defaultValue>
+      <description></description>
+      <id>827336ec-c1f3-41c9-b6de-526f655ffc3e</id>
+      <masked>false</masked>
+      <name>errorInvalid</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hi, JohannesKie'</defaultValue>
+      <description></description>
+      <id>d1b08a1b-16e9-462f-9beb-bccb669dfee2</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+</TestCaseEntity>
